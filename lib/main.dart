@@ -4,7 +4,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-   await MobileAds.instance.initialize();
+  MobileAds.instance.initialize();
 
   runApp(const MyApp());
 }
